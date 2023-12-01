@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #061826;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    font-size: 16px;
+    }
+
+a.navbarref{
+        color: black;
+        text-decoration: none;
+        padding: 14px 25px;
+    }
+
+a.navbarref:hover{
+    border-bottom: solid 2px black;
+}
+      
+
+
+#t1{
+    width: 60vw;
+    height: 35px;
+    background-color: #504E6A;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#t2{
+    width: 60vw;
+    height: 100px;
+    background-color: #EDF2EF;
+    margin: 0 auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.bok{
+    width: 100px;
+    flex-grow: 1;
+    text-align: right;
+}
+
+#pomoc{
+    margin-right: 1rem;
+}
+
+#login{
+    margin-right: 1rem;
+}
+
+.srodek{
+    width: 100px;
+    flex-grow: 2;
+    text-align: center;
+}
+
+#navbar{
+    width: 60vw;
+    height: 45px;
+    background-color: lightgrey;
+    margin: auto;
+    border-top: 1px solid grey;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.8rem 10rem;
+}
+li {
+    list-style-position: inside;
+    list-style-type: none;
+  }
+
+#arty{
+    width: 60vw;
+    height: 90vh;
+    background-color: #EDF2EF;
+    margin: auto;
+    border-top: 1px solid grey;
+    z-index: 1;
+    font-size: 3rem;
+}
+
+.ikona{
+    height: 80px;
+    width: 80px;
+}
+
+.art{
+    float: left;
+    margin-left: 24px;
+    margin-top: 20px;
+    border: solid 1px black;
+    width: 18vw;
+    text-align: center;
+}
+
+#mainpomoc{
+    text-align: center;
+    width: 60vw;
+    height: 90vh;
+    background-color: #EDF2EF;
+    margin: auto;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+    z-index: 1;
+    font-size: 3rem;
+}
+
+#logreg{
+    text-align: center;
+    width: 60vw;
+    height: 90vh;
+    background-color: #EDF2EF;
+    margin: auto;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+    z-index: 1;
+    font-size: 3rem;
+}
+
+.logregbut {
+    background-color: #D52941;
+    color: white;
+    padding: 14px 25px;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 400px;
+  }
+
+.logregbut:hover{
+    background-color: #BA3547;
+  }
