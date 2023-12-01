@@ -34,7 +34,7 @@
     <main>
         <div id="m1">
             <div id="lewy">
-                <h3>Festiwal okazji</h3>
+                <h3>Festiwal <br>okazji</h3>
                 <a href="okazje.php" id="przejdz">Przejdź</a>
             </div>
             <div id="prawy">

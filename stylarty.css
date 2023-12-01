@@ -98,26 +98,14 @@ li {
 
 .art{
     float: left;
-    margin-left: 24px;
+    margin-left: 1.4vw;
     margin-top: 20px;
     border: solid 1px black;
     width: 18vw;
     text-align: center;
 }
 
-#mainpomoc{
-    text-align: center;
-    width: 60vw;
-    height: 90vh;
-    background-color: #EDF2EF;
-    margin: auto;
-    padding-top: 20px;
-    border-top: 1px solid grey;
-    z-index: 1;
-    font-size: 3rem;
-}
-
-#logreg{
+#mainpomoc, #logreg{
     text-align: center;
     width: 60vw;
     height: 90vh;
